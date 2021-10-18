@@ -1,7 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b061b7cd-e9fc-4801-ab7f-de88be543be7" name="Changes" comment="added routes" />
+    <list default="true" id="b061b7cd-e9fc-4801-ab7f-de88be543be7" name="Changes" comment="added routes">
+      <change afterPath="$PROJECT_DIR$/controllers/comment-controller.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/Comment.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/module-18-pizza-hunt.textClipping" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/assets/js/idb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/api/comment-routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/pizza-controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/pizza-controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Pizza.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Pizza.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/add-pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/add-pizza.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/add-pizza.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/add-pizza.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/pizza-list.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/pizza-list.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/js/single-pizza.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/js/single-pizza.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pizza-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pizza-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/pizza.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/pizza.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/dateFormat.js" beforeDir="false" afterPath="$PROJECT_DIR$/utils/dateFormat.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,11 +40,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1zYAESlfCQFR7Ey6MeKTEOsBUHC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -42,6 +68,10 @@
       <workItem from="1634315241602" duration="2926000" />
       <workItem from="1634332759552" duration="754000" />
       <workItem from="1634334271334" duration="4958000" />
+      <workItem from="1634361705771" duration="1832000" />
+      <workItem from="1634410913668" duration="627000" />
+      <workItem from="1634411560037" duration="470000" />
+      <workItem from="1634412444076" duration="5370000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit with front end code">
       <created>1634314647080</created>
@@ -57,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1634361124103</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added routes">
+      <created>1634361726536</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1634361726536</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -76,6 +113,7 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="initial commit with front end code" />
     <MESSAGE value="added routes" />
     <option name="LAST_COMMIT_MESSAGE" value="added routes" />

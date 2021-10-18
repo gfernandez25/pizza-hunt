@@ -1,6 +1,9 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
+const { Pizza } = require('./models');
+
+
 const app = express();
 const PORT = process.env.PORT || 3001;
 
@@ -9,14 +12,7 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.use(require('./routes'));
 
-app.use(require('./routes'));
-
-// mongoose.connect(  process.env.MONGODB_URI ||'mongodb://http://localhost:3001/pizza-hunt',{
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true
-// });
-
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/pizza-hunt', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/pizza-hunt-78', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
